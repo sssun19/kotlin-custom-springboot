@@ -1,9 +1,9 @@
-package com.fastcampus.springboot.hadngame
+package com.fastcampus.springboot.handgame
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+import org.springframework.context.annotation.Configuration
 import java.util.*
 
+@Configuration
 class Handgame {
 
     fun play(player: GameCommand): Pair<GameResult, GameCommand> {

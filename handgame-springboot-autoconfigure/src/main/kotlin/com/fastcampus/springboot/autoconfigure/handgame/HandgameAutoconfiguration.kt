@@ -7,12 +7,11 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.context.annotation.Bean
 
 @AutoConfiguration
-@ConditionalOnClass
-//(Handgame::class)
+@ConditionalOnClass(Handgame::class)
 @ConditionalOnProperty(prefix = "my.handgame", name=["enabled"], havingValue = "true")
 class HandgameAutoconfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    fun handgame() = null
+    fun handgame() = Handgame()
 }

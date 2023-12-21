@@ -3,5 +3,6 @@ rootProject.name = 'fastcampus-custom-springboot-starter'
 include(
         "handgame",
         "handgame-springboot-autoconfigure",
-        "handgame-springboot-app"
+        "handgame-springboot-app",
+        "handgame-springboot-starter"
 )

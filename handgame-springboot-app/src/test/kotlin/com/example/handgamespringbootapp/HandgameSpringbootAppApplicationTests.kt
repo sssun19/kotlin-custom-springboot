@@ -1,10 +1,10 @@
-package com.example.fastcampuscustomspringbootstarter
+package com.example.handgamespringbootapp
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class FastcampusCustomSpringbootStarterApplicationTests {
+class HandgameSpringbootAppApplicationTests {
 
     @Test
     fun contextLoads() {
